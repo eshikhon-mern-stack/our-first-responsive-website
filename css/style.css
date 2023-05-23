@@ -1,12 +1,96 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  background-image: url(../images/dawn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.411);
+  background-blend-mode: multiply;
+  padding: 15px 0;
+}
+
 .container {
-  width: 900px;
+  width: 1000px;
   margin: auto;
 }
-body {
-  font-family: Roboto, sans-serif;
+.flex {
+  display: flex;
 }
+.logo{
+  width: 20%;
+}
+.logo h2 {
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+}
+.logo h2 span {
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+}
+nav {
+  width: 80%;
+}
+nav ul{
+  display: flex;
+  justify-content: end;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px;
+  text-decoration: none;
+}
+.banner{
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+}
+.banner h3 {
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 600;
+}
+.banner hr {
+  width: 100px;
+  height: 5px;
+  align-items: center;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  background: #fb2259;
+  border: none;
+  border-radius: 5px;
+}
+.banner h1 {
+  margin: 36px;
+  font-size: 63px;
+  font-weight: 600;
+}
+.banner a {
+  color: white;
+  background-color: #fb2259;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 5px;
