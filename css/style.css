@@ -94,3 +94,47 @@ nav ul li a {
   text-decoration: none;
   padding: 12px;
   border-radius: 5px;
+}
+.event {
+  padding: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+.event span {
+  width: 100px;
+  height: 5px;
+  background: #fb2259;
+  display: block;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.content {
+  padding: 20px;
+  text-align: center;  
+}
+.content img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 10px 10px 2px #8080807d;
+}
+.content h2 {
+  font-size: 30px;
+  color: #000000cc;
+  margin: 20px 0 0 0;
+}
+.content p {
+  color: #373737;
+  font-size: 18px;
+}
+.content a {
+  text-decoration: none;
+  color: #fb2259;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  display: block;
+}
