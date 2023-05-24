@@ -24,7 +24,7 @@ header {
 }
 
 .container {
-  width: 900px;
+  width: 1200px;
   margin: auto;
 }
 .flex {
@@ -130,14 +130,17 @@ nav ul li a {
 .content p {
   color: #373737;
   font-size: 18px;
+  margin-bottom: 36px;
 }
 .content a {
-  text-decoration: none;
-  color: #fb2259;
-  font-size: 18px;
+  color: white;
+  background-color: #fb2259;
   letter-spacing: 2px;
-  margin-top: 15px;
-  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 5px;
+  
 }
 .explore-content {
   background-image: url("../images/father.jpg");
@@ -174,13 +177,59 @@ nav ul li a {
 }
 .content-container p{
   font-size: 18px;
-  margin: 10px 0 25px 0;
+  margin: 10px 0 36px 0;
 }
 .content-container a {
-  color: #fb2259;
+  color: white;
+  background-color: #fb2259;
   letter-spacing: 2px;
+  text-transform: uppercase;
   text-decoration: none;
-  font-size: 18px;
-  margin-top: 10px;
+  padding: 12px;
+  border-radius: 5px;
+}
+.upcoming-content {
+  padding: 60px 0;
+  display: flex;
+}
+.tures {
+  padding: 10px;
+  width: 33.33%;
+}
+.tures h3 {
+  font-size: 26px;
+}
+.tures span {
+  width: 100px;
+  height: 5px;
+  background: #FB2259;
   display: block;
+  margin-top: 5px;
+  margin-bottom: 25px;
+
+}
+.tures p {
+  font-size: 18px;
+  padding-bottom: 36px;
+}
+.tures a {
+  color: white;
+  background-color: #fb2259;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 5px;
+
+}
+.small {
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.big {
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
