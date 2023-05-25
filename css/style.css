@@ -277,7 +277,7 @@ width: 100%;
 
 
 /* 0 to 480 px */
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
   
   .container {
     width: 450px;
