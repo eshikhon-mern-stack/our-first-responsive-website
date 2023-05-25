@@ -60,6 +60,8 @@ nav ul li a {
   padding: 8px;
   text-decoration: none;
 }
+
+/* banner */
 .banner{
   color: white;
   text-align: center;
@@ -95,6 +97,9 @@ nav ul li a {
   padding: 12px;
   border-radius: 5px;
 }
+
+
+
 .event {
   padding: 60px;
   text-align: center;
@@ -142,6 +147,10 @@ nav ul li a {
   border-radius: 5px;
   
 }
+
+
+
+
 .explore-content {
   background-image: url("../images/father.jpg");
   background-repeat: no-repeat;
@@ -263,4 +272,101 @@ width: 100%;
 .footer div ul li a {
   text-decoration: none;
   padding: 10px;
+}
+
+
+
+/* 0 to 480 px */
+@media only screen and (max-width: 480px){
+  
+  .container {
+    width: 450px;
+  }
+  .flex2{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    width: 15%;
+  }
+  nav {
+    width: 70%;
+  }
+  .banner h1 {
+    margin: 10px 10px;
+    font-size: 40px;
+  }
+  .banner a{
+    margin-top: 10px;
+    display: inline-block;
+  }
+  .banner{
+    padding: 80px 0;
+  }
+  h2{
+    font-size: 20px;
+  }
+.event {
+  padding: 20px;
+}
+.content {
+  width: 100%; 
+}
+.content-container{
+  flex-direction: column;
+}
+.content img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 10px 10px 2px #8080807d;
+}
+.content h2 {
+  font-size: 20px;
+  color: #000000cc;
+  margin: 20px 0 0 0;
+}
+.content p {
+  color: #373737;
+  font-size: 18px;
+  margin-bottom: 36px;
+}
+.content a {
+  color: white;
+  background-color: #fb2259;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 5px;
+  
+}
+
+.explore-container{
+  width: 100%
+}
+
+.upcoming-content {
+  padding: 60px 0;
+  flex-direction: column;
+}
+.tures {
+  width: 100%;
+}
+
+.footer {
+  flex-direction: column;
+}
+.footer div ul {
+  list-style: none;
+  font-size: 18px;
+} 
+.footer div ul li {
+  padding: 5px;
+}
+.footer div ul li a {
+  text-decoration: none;
+  padding: 10px;
+}
+
 }
